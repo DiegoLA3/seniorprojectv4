@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* The section below is for CSS for the background*/
+  body {
+    text-align: center;
+    font-weight: 300;
+    font-family: "Fira Sans", sans-serif;
+    background-repeat: no-repeat;
+    background: linear-gradient(128deg, #376805, rgba(0, 0, 0, 0) 70.71%),
+                linear-gradient(329deg, #15caca, rgba(0, 0, 0, 0) 70.71%)
+                !important;
+  }
+  
+  h1 {
+    color: white
+  }
+
+  h2 {
+    color: white
+  }
+
+  div {
+    margin-top: 15px;
+  }
+
+  .rectangle {
+    display: inline-block;
+    width: 1000px;
+    height: 700px;
+    background: linear-gradient(128deg, #15caca, rgba(0, 0, 0, 0) 70.71%),
+                linear-gradient(329deg, #376805, rgba(0, 0, 0, 0) 70.71%)
+                !important;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    margin: 15px;
+  }
+
+  .button{
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(0, 0, 0);
+  }
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 #15caca, 0 17px 50px 0 rgb(255, 255, 255);
+  }
+  .LineChart {
+    background:white;
+    margin-left: 1030px;
+
+  }

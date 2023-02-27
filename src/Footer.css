@@ -1,0 +1,17 @@
+.main-footer {
+    padding-top: 3em;
+    width: 100%;
+    position:flexible;
+    left:0;
+    bottom:0;
+    right:0;
+    padding-bottom:60px;
+}
+
+h2 {
+    color: white;
+}
+
+nav {
+    color: white;
+}
