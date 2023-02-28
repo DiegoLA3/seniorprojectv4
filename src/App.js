@@ -6,12 +6,10 @@ import NoMatch from './Components/NoMatch'
 import Login from "./Components/Login"
 import Register from "./Components/Register"
 import Home from "./Components/Home"
-import Calculate from "./Components/Calculate"
-import Closedend from "./Components/Closedend"
+import Closedend from "./Components/Closedendinfo/Closedend"
 import Creditcard from "./Components/Creditcard"
-import CompoundInterest from "./Components/Depositaccountform"
 import Form from "./Components/Mortgageform";
-import DepositAmount from "./Components/DepositAmount"
+import DepositAmount from "./Components/Depositinfo/DepositAmount"
 
 
 import Footer from "./Footer"
@@ -25,7 +23,6 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={isLoggedIn==="true" ? <Userdetails /> : <Login />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/Calculate" element={<Calculate />} />
         <Route path="/ClosedEnd" element={<Closedend />} />
         <Route path="/DepositAccount" element={<DepositAmount />} />
         <Route path="/CreditCard" element={<Creditcard />} />
